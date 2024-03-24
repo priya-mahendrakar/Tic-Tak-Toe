@@ -1,0 +1,71 @@
+*{
+    margin :0;
+    padding :0;
+}
+
+body{
+    background-color:#606c38;
+    color:black;
+    text-align: center;
+}
+
+.game{
+    height:360px; 
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.container{
+    height:340px;
+    width:340px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:10px;
+
+}
+
+.box{
+    height:100px;
+    width: 100px;
+    border-radius: 10px;
+    border:none;
+    background-color: #fefae0;
+    font-size:80px;
+    color : black;
+
+   
+}
+
+#reset{
+    background-color: black;
+    color: aliceblue;
+    padding:10px;
+    border-radius: 4px;
+    font-weight: 700;
+    border:2px solid brown;
+    
+}
+
+#newgamebtn{
+    background-color: black;
+    color: aliceblue;
+    padding:10px;
+    border-radius: 4px;
+    font-weight: 700;
+    border:2px solid brown;
+    
+
+}
+
+#msg{
+    color:#fefae0;
+    font-size: 40px;
+}
+
+.hide{
+    display:none;
+}
